@@ -3,9 +3,9 @@
 
 ## 🚀 About Me
 
-I'm a undergraduate Student of Computer Sceince and willing to become full stack engineer in future  
+I'm a undergraduate Student of Computer Sceince and willing to become full stack engineer in future. 💻👨‍
 
-   ![223001524-a960bc18-f6d6-46c8-a8c8-02b6d7ae5339](https://user-images.githubusercontent.com/102066085/236841718-14f4d234-60a2-478f-a69f-911cd9420713.gif)
+![Logo](https://camo.githubusercontent.com/4c8d92806e3c2322a2c390ffa0019c1d6f78a4d82108aa6946863ae362a763c8/68747470733a2f2f69322e77702e636f6d2f616c6c68746163636573732e696e666f2f77702d636f6e74656e742f75706c6f6164732f323031382f30332f70726f6772616d6d696e672e6769663f6669743d313238312532433731362673736c3d31)
 
 ## 🔗 Links
 
