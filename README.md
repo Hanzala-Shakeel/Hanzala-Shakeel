@@ -13,7 +13,7 @@ I'm a undergraduate Student of Computer Sceince and willing to become full stack
 
 ## 🛠 Skills
 
-HTML, CSS, Bootstrap, JavaScript, Firebase, React Js....
+HTML, CSS, Bootstrap, JavaScript, Firebase, React JS....
 
 ## Other Common Github Profile Sections
 
