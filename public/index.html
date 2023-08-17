@@ -1,48 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hanzala-Shakeel Portfolio Projects</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="nav-tags">
-            <h1>Hanzala-Shakeel-Projects</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hanzala-Shakeel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header bg-text">
+      <nav>
+        <div class="hamb">
+          <span class="tag">Hanzala-Shakeel</span>
+          <img onclick="hide()" src="image/hamburger.png" />
         </div>
-        <div class="card-container">
-            <!-- <div class="background"></div> -->
-            <div class="card">
-                <p class="card-heading">Project 1</p>
-                <h2>Stop Watch</h2>
-                <p>A complete Stop Watch made using HTML,CSS,JAVASCRIPT.</p>
-                <button class="btn"><a href="https://learning-hosting-814c0.firebaseapp.com/">Explore it</a></button>
-            </div>
-            <div class="card">
-                <p class="card-heading">Project 2</p>
-                <h2>Calculator</h2>
-                <p>A complete Calculator made using HTML,CSS,JAVASCRIPT.</p>
-                <button class="btn"><a href="https://calculator-app-41c30.firebaseapp.com/">Explore it</a></button>
-            </div>
-            <div class="card">
-                <p class="card-heading">Project 3</p>
-                <h2>Image-Slider</h2>
-                <p>A complete Image-Slider made using HTML,CSS,JAVASCRIPT.</p>
-                <button class="btn">Explore it</button>
-            </div>
-            <div class="card">
-                <p class="card-heading">Project 4</p>
-                <h2>Login-Form</h2>
-                <p>A complete Login-Form made using HTML,CSS,JAVASCRIPT.</p>
-                <button class="btn"><a href="https://registration-form-f243a.web.app/">Explore it</a></button>
-            </div>
+        <ul id="ul">
+          <li><a href="#">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+      <div class="text-box">
+        <h1>Hi, My name is <span>Hanzala Shakeel</span></h1>
+        <p>
+          I'm a undergraduate Student of Computer Sceince and willing to
+          become<br />
+          full stack engineer in future
+        </p>
+        <a
+          target="_blank"
+          class="btn"
+          href="https://drive.google.com/file/d/1iaTLqC69NYMLZUXPXULMAEu9GcHIB-t9/view?usp=sharing"
+          >Resume</a
+        >
+      </div>
+      <div class="user-image">
+        <img src="image/user.jpeg" />
+      </div>
+    </header>
+    <main>
+      <section class="skills bg-text" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+        <div class="skills-wrapper">
+          <div>
+            <img
+              src="image/html.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="image/css.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="image/bootstrap.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+          <div>
+            <img
+              src="image/js.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="image/firebase.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="image/react.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
         </div>
-        <div class="footer">
-            <span>COPYRIGHT © HANZALA- SHAKEEL ALL RIGHTS RESERVERD</span> 
+      </section>
+      <!-- projects -->
+      <section class="projects bg-text" id="projects">
+        <h1>Recent Projects</h1>
+        <div class="projects-wrapper">
+          <div class="item">
+            <img src="image/olx1.PNG" alt="Project Image" />
+            <div class="project-description">
+              <h3>OLX Clone</h3>
+              <p>A complete olx clone using HTML, CSS, JAVASCRIPT, FIREBASE</p>
+              <a
+                href="https://olx-update.web.app/"
+                target="_blank"
+                class="btn"
+                >Check Now</a
+              >
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/chat.PNG" alt="Project Image" />
+            <div class="project-description">
+              <h3>Chat App</h3>
+              <p>Responsive Chat App using HTML, CSS, JAVASCRIPT, FIREBASE</p>
+              <a
+                href="https://chat-app-32c9b.web.app/"
+                target="_blank"
+                class="btn"
+                >Check Now</a
+              >
+            </div>
+          </div>
         </div>
-    </div>
+      </section>
+    </main>
+    <footer>
+      <p>2023 : copyright © Design & Developed by Hanzala Shakeel</p>
+    </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
